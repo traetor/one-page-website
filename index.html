@@ -7,17 +7,18 @@
     <meta name="author" content="Jan Król, Jasiek Król, Jan Krol">
     <title>Jasiek Król</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
     <link href="css/core.css" rel="stylesheet">
 </head>
 <body>
 <!-- Navigation -->
 <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
-    <!--<i class="fa fa-bars"></i>-->
+    <i class="fa fa-bars"></i>
 </a>
 <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
-            <!--<i class="fa fa-times"></i>-->
+            <i class="fa fa-times"></i>
         </a>
         <li>
             <a class="js-scroll-trigger" href="#top">Home</a>
@@ -26,26 +27,67 @@
             <a class="js-scroll-trigger" href="#about">About</a>
         </li>
         <li>
-            <a class="js-scroll-trigger" href="#contact" onclick=$( "#menu-close").click();>Contact</a>
+            <a class="js-scroll-trigger" href="#contact" onclick=$("#menu-close").click();>Contact</a>
         </li>
     </ul>
 </nav>
 <!-- Header -->
-<header class="header" id="top">
+<header class="header main" id="top">
     <div class="text-vertical-center">
         <h1>Jasiek Król</h1>
-        <h3>Junior Front-End Developer</h3>
+        <h3>Junior Front-end Developer</h3>
         <br>
         <span class="more">
-        <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">Find Out More</a>
+        <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">
+            <i class="fa fa-search" aria-hidden="true"></i> Find Out More
+        </a>
+        </span>
+        <br><br>
+        <span class="more">
+        <a href="#contact" class="btn btn-dark btn-lg js-scroll-trigger">
+            <i class="fa fa-address-book" aria-hidden="true"></i> Contact
+        </a>
         </span>
     </div>
 </header>
 <!-- About -->
-<section id="about" class="about">
+<section id="about" class="about main">
     <div class="container text-center">
-        <h1>My skills</h1>
+        <h1>About</h1>
     </div>
+    <div class="row langu">
+        <div class="col-xl-4 col-sm-6" class="box">
+            <h3>HTML5</h3>
+            <h1 class="large_langu"><i class="fa fa-html5" aria-hidden="true"></i></h1>
+        </div>
+        <div class="col-xl-4 col-sm-6" class="box">
+            <h3>CSS3</h3>
+            <h1 class="large_langu"><i class="fa fa-css3" aria-hidden="true"></i></h1>
+        </div>
+        <div class="col-xl-4 col-sm-6" class="box">
+            <h3>Github</h3>
+            <h1 class="large_langu"><i class="fa fa-github" aria-hidden="true"></i></h1>
+        </div>
+    </div>
+    <div class="row about_footer">
+        <div class="col-xl-6 col-sm-6" class="box buton">
+            <a href="#contact" class="btn btn-dark btn-lg js-scroll-trigger">
+                <h1><i class="fa fa-arrow-down" aria-hidden="true"></i> Contact</h1>
+            </a>
+        </div>
+        <div class="col-xl-6 col-sm-6" class="box buton">
+            <a href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
+                <h1><i class="fa fa-arrow-up" aria-hidden="true"></i> Home</h1>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- Contact -->
+<section id="contact" class="contact main">
+    <div class="container text-center">
+        <h1>Kontakt</h1>
+    </div>
+</section>
 <script src="js/jquery/jquery.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/jquery-easing/jquery.easing.min.js"></script>
