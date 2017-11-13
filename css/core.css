@@ -171,22 +171,23 @@ body {
   color: #fff;
   border: none;
   border-radius: 0;
-  background-color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 300px;
+  height: 100px;
+  margin: auto; }
 
 .large_langu {
-  font-size: 100px; }
+  font-size: 40px; }
 
 .about_footer {
   color: #fff;
   border: none;
   border-radius: 0;
   background-color: rgba(0, 0, 0, 0.2);
-  width: 80%;
   height: 10%;
   text-align: center;
   margin: auto;
-  vertical-align: middle;
-  margin-top: 5px; }
+  vertical-align: middle; }
 
 .about_footer > buton:hover {
   color: #fff;
