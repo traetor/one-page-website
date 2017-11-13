@@ -168,16 +168,28 @@ body {
   vertical-align: middle; }
 
 .langu .box {
-  color: #fff;
+  color: #3b5998;
   border: none;
   border-radius: 0;
   background-color: rgba(0, 0, 0, 0.6);
   width: 300px;
   height: 100px;
-  margin: auto; }
+  margin: auto;
+  padding: 20px;
+  text-decoration: none; }
+
+.langu a:hover {
+  color: #3b5998;
+  border: none;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-decoration: none; }
 
 .large_langu {
   font-size: 40px; }
+
+.box_des {
+  color: #fff; }
 
 .about_footer {
   color: #fff;
